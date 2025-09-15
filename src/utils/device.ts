@@ -1,13 +1,13 @@
 import { TypeSensor } from "../types";
 
 const names: Record<TypeSensor, string> = {
-  [TypeSensor.IMPACT_SENSOR]: "Dispositivo do capacete",
-  [TypeSensor.REAR_SENSOR]: "Sensor traseiro"
+  [TypeSensor.IMPACT_SENSOR]: "Dispositivo capacete",
+  [TypeSensor.REAR_SENSOR]: "Sensor traseiro",
 };
 
 const descriptions: Record<TypeSensor, string> = {
   [TypeSensor.IMPACT_SENSOR]: "Sensor de impacto que envia alerta para contato de emergencia",
-  [TypeSensor.REAR_SENSOR]: "Sensor de distância que verifica objetos atrás da moto"
+  [TypeSensor.REAR_SENSOR]: "Sensor de distância que verifica objetos atrás da moto",
 };
 
 export function getNameDevice(type: TypeSensor){
